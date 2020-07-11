@@ -278,8 +278,13 @@ body {
   justify-content: center;
 }
 
-.team-list-item:not(:last-child) {
+.team-list-item {
   width: 270px;
+  background-color: var(--main-background-color);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-list-item:not(:last-child) {
   margin-right: 30px;
 }
 .team-item-image {
