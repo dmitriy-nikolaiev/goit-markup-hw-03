@@ -354,6 +354,8 @@ body {
 .clients-item-link:hover,
 .clients-item-link:focus {
   color: var(--accent-color);
+
+  border: 1px solid var(--accent-color);
 }
 
 /* футер */
@@ -365,6 +367,7 @@ body {
 
 .footer .container {
   display: flex;
+  /* ВОПРОС */
   align-items: baseline;
 }
 /* .footer .logo {
